@@ -3,8 +3,21 @@ html{
     font-size: 16px;
 }
 
+.grid{
+    display: grid;
+    grid-template: repeat(6, 1fr)/repeat(6, 1fr);
+}
+
 /* Header Section*/
 nav img{
     height: 12.5rem;
     width: 12.5 rem;
 }
+
+/* Purpose */
+
+/* Current Book  */
+
+/* Upcoming Books  */
+
+/* Footer */
