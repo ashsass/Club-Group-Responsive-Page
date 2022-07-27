@@ -5,16 +5,26 @@ html{
 
 .grid{
     display: grid;
-    grid-template: repeat(6, 1fr)/repeat(6, 1fr);
+    grid-template: repeat(6, 300px)/repeat(6, 300px);
+}
+
+body{
+    height: auto;
 }
 
 /* Header Section*/
 nav img{
-    height: 12.5rem;
-    width: 12.5 rem;
+    height: 5rem;
+    width: 5rem;
+}
+
+header{
+    display: grid;
+    grid-area: 1/1/span 2/span 6;
 }
 
 /* Purpose */
+
 
 /* Current Book  */
 
