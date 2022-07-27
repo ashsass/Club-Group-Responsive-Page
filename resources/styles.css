@@ -1,15 +1,29 @@
 /*Universal*/
+/* *{
+    border: 1px solid red;
+} */
+
 html{
     font-size: 16px;
 }
 
 .grid{
     display: grid;
-    grid-template: repeat(6, 300px)/repeat(6, 300px);
+    grid-template: repeat(6, 200px)/repeat(6, 1fr);
+    /*Need to come back and adjust some of the row heights esp for the banner so the background image fits better*/
 }
 
 body{
     height: auto;
+    text-align: center;
+}
+
+main{
+    display: grid;
+}
+
+.purpose, .current.book, .upcoming.books, .join{
+    display: grid;
 }
 
 /* Header Section*/
@@ -21,13 +35,32 @@ nav img{
 header{
     display: grid;
     grid-area: 1/1/span 2/span 6;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./photos/banner\ background.webp');
+    background-position:bottom;
+    opacity: 0.9;
+}
+
+.banner h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 8rem;
 }
 
 /* Purpose */
-
+.purpose{
+}
 
 /* Current Book  */
+.current.book{
+}
 
 /* Upcoming Books  */
+.upcoming.books{
+}
+
+/* Join */
+.join{
+}
 
 /* Footer */
